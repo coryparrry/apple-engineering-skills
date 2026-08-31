@@ -1,0 +1,47 @@
+{
+  "name": "apple-engineering-skills",
+  "version": "0.1.0",
+  "description": "Production-grade workflows for building, validating, and shipping Apple-platform software.",
+  "author": {
+    "name": "Cory Parry",
+    "url": "https://github.com/coryparrry"
+  },
+  "homepage": "https://github.com/coryparrry/apple-engineering-skills",
+  "repository": "https://github.com/coryparrry/apple-engineering-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "apple",
+    "apple-development",
+    "appkit",
+    "foundation-models",
+    "swift",
+    "swift-concurrency",
+    "swiftui",
+    "macos",
+    "ios",
+    "screen-capture-kit",
+    "vision",
+    "xcode"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Apple Engineering Skills",
+    "shortDescription": "Build and ship reliable Apple-platform software.",
+    "longDescription": "Evidence-driven skills for Apple frameworks, native macOS architecture, concurrency, privacy, performance, persistence, release provenance, and authoritative game systems.",
+    "developerName": "Cory Parry",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/coryparrry/apple-engineering-skills",
+    "privacyPolicyURL": "https://github.com/coryparrry/apple-engineering-skills/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/coryparrry/apple-engineering-skills/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Review this Apple-platform implementation against its runtime contracts.",
+      "Design this Apple feature using current framework documentation.",
+      "Trace this Apple app issue from source to the running binary."
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Intelligence & Media",
+      "description": "Skills for Foundation Models and bounded image-processing pipelines.",
+      "skills": [
+        "apple-foundation-models-production",
+        "apple-vision-image-pipeline"
+      ]
+    },
+    {
+      "title": "App Reliability",
+      "description": "Skills for persistence, privacy, runtime performance, and concurrency correctness.",
+      "skills": [
+        "apple-persistence-integrity",
+        "apple-privacy-telemetry",
+        "apple-runtime-performance-proof",
+        "swift-concurrency-runtime"
+      ]
+    },
+    {
+      "title": "macOS Systems",
+      "description": "Skills for Accessibility, AppKit lifecycle, local IPC, and ScreenCaptureKit.",
+      "skills": [
+        "macos-accessibility-tcc",
+        "macos-app-lifecycle-bridge",
+        "macos-local-ipc-integrity",
+        "macos-screen-capture-lifecycle"
+      ]
+    },
+    {
+      "title": "Distribution",
+      "description": "Skills for release provenance and reusable Swift package contracts.",
+      "skills": [
+        "apple-release-provenance",
+        "swift-package-contracts"
+      ]
+    },
+    {
+      "title": "Game Services",
+      "description": "Skills for authoritative Apple game state, identity, integrity, and commerce.",
+      "skills": [
+        "apple-authoritative-game-systems"
+      ]
+    }
+  ]
+}

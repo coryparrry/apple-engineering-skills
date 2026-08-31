@@ -1,0 +1,20 @@
+{
+  "name": "coryparrry-apple-engineering-skills",
+  "interface": {
+    "displayName": "Cory Parry Apple Engineering Skills"
+  },
+  "plugins": [
+    {
+      "name": "apple-engineering-skills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
